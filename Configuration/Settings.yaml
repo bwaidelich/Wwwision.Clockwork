@@ -1,0 +1,13 @@
+TYPO3:
+  Flow:
+    http:
+      chain:
+        preprocess:
+          chain:
+            'initializeClockwork':
+              component: 'Wwwision\Clockwork\ClockworkInitComponent'
+        postprocess:
+          chain:
+            'resolveClockwork':
+              position: 'end'
+              component: 'Wwwision\Clockwork\ClockworkResolveComponent'

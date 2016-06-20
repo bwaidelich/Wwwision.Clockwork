@@ -1,0 +1,14 @@
+{
+    "name": "wwwision/clockwork",
+    "type": "typo3-flow-package",
+    "description": "Simple Neos Flow package to integrate https://github.com/itsgoingd/clockwork",
+    "require": {
+        "typo3/flow": "~3.0",
+        "itsgoingd/clockwork": "~1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\Clockwork\\": "Classes"
+        }
+    }
+}
