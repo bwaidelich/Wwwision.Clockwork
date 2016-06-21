@@ -2,6 +2,7 @@
     "name": "wwwision/clockwork",
     "type": "typo3-flow-package",
     "description": "Simple Neos Flow package to integrate https://github.com/itsgoingd/clockwork",
+    "license": "MIT",
     "require": {
         "typo3/flow": "~3.0",
         "itsgoingd/clockwork": "~1.12"
