@@ -20,7 +20,7 @@ class ClockworkInitComponent implements ComponentInterface
 {
 
     /**
-     * @Flow\Inject
+     * @Flow\Inject(lazy=false)
      * @var DoctrineEntityManager
      */
     protected $doctrineEntityManager;
