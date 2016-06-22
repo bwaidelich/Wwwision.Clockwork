@@ -16,7 +16,3 @@ composer require wwwision/clockwork
 ![Alt text](Screenshot.png?raw=true "Clockwork in action")
 
 4.) DISABLE FOR PRODUCTION!
-
-# WIP
-
-This is still work in progress, stay tuned.
